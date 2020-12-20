@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Local CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -30,7 +31,51 @@
           </ul>
     </div>
     <div class="container-main">
-        
+      <div class="formMain">
+          <div class="col-xs-12 col-sm-7 col-md-7 col-md-offset-1 col-lg-offset-2">
+            <div class="section-title clear">
+                <h2>Contact me by email</h2>
+                <span class="bar-dark"></span>
+                <span class="bar-primary"></span>
+            </div>
+
+            <form id="contact-form" class="row contact-form no-gutter" action="#" method="post" novalidate="novalidate">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="input-field name">
+                        <span class="input-icon" id="name"><i class="tf-profile-male"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter your name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                    </div>
+                </div> <!-- ./col- -->
+                <div class="col-xs-12 col-sm-6">
+                    <div class="input-field email">
+                        <span class="input-icon" id="email"><i class="tf-envelope2"></i></span>
+                        <input type="email" class="form-control" name="email" placeholder="Your email address">
+                    </div>
+                </div> <!-- ./col- -->
+                <div class="col-xs-12 col-sm-12">
+                    <div class="input-field">
+                        <span class="input-icon" id="subject"><i class="tf-pricetags"></i></span>
+                        <input type="text" class="form-control" name="subject" placeholder="Enter the discussion title">
+                    </div>
+                </div> <!-- ./col- -->
+                <div class="col-xs-12 col-sm-12">
+                    <div class="input-field message">
+                        <span class="input-icon"><i class="tf-pencil2"></i></span>
+                        <textarea name="message" id="message" class="form-control" placeholder="Write your message"></textarea>
+                    </div>
+                </div> <!-- ./col- -->
+                <div class="col-xs-12 col-sm-12">
+                    <div class="input-field">
+                        <span class="btn-border">
+                            <button type="submit" class="btn btn-primary btn-custom2 btn-custom-border text-uppercase">Send</button>
+                        </span>
+                    </div>
+                    <div class="msg-success">Your Message was sent successfully</div>
+                    <div class="msg-failed">Something went wrong, please try again later</div>
+                </div> <!-- ./col- -->
+            </form> <!-- /.row -->
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap Bundle with Popper -->

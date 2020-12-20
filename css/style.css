@@ -12,9 +12,18 @@ body {
     scroll-behavior: smooth;
 }
 
+
 .container-nav {
     background-color: #0c0f15;
     border: 1px solid black;
+    border-top: 5px solid rgb(255, 72, 0, 0.719);
+    width: 20%;
+    height: 120vh;
+    float: left;
+}
+.container-nav:hover {
+    background-color: #0c0f15;
+    border: 1px solid  rgb(255, 72, 0);
     border-top: 5px solid rgb(255, 72, 0, 0.719);
     width: 20%;
     height: 120vh;
@@ -162,13 +171,22 @@ body {
 
 
 .col-sm {
-    border: 2px solid rgb(255, 72, 0, 0.719);
+    border: 2px solid rgb(255, 72, 0, 0.719)!important;
     margin: 10px;
-    background-color: #0c0f15;
+    background-color: #0c0f15!important;
     border-radius: 10px;
     color: white;
     overflow-y: scroll;
     padding: 10px;
+}
+
+.card {
+    border: 2px solid rgb(255, 72, 0, 0.719)!important;
+    margin: auto;
+    height: 350px;
+    margin-top: 25px;
+    width: 100%;
+    background-color: #0c0f15!important;
 }
 
 .section-title {
@@ -216,7 +234,7 @@ body {
     transition: 2000ms!important;
     background-color: #07080b;
     border-radius: 15px;
-    margin: 0 15px;
+    margin: 0 20px;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -moz-flex-grow: 1;
@@ -229,6 +247,7 @@ body {
     border-radius: 10px;
     height: 8px;
     width: 0;
+    margin-left: -10px;
   }
   .progress .skill-lavel {
     border-left: 2px solid #2e333a;
@@ -317,4 +336,56 @@ body {
 
 .center {
     text-align: center;
+}
+
+.contact-form {
+    background-color: #0c0f15;
+    border: 1px solid rgb(255, 72, 0); 
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15vh;
+}
+
+.col:nth-child(1) {
+    width: 325px;
+    margin: auto;
+    padding-top: 10px;
+    float: left;
+}
+
+.col:nth-child(2) {
+    width: 325px;
+    margin: auto;
+    padding-top: 10px;
+    float: right;
+}
+
+.contact-title {
+    color: whitesmoke;
+    font-size: 48px;
+    border-bottom: 1px solid rgb(255, 72, 0);
+    width: 103%;
+    margin-left: -1.5%;
+    padding: 10px;
+}
+
+.form-control {
+    color: whitesmoke!important;
+    background-color: #2e333a!important;
+    border: 1px solid rgb(255, 72, 0)!important; 
+    border-radius: 15px;
+}
+
+img {
+    transition:transform 0.25s ease;
+    border-bottom: 1px solid rgb(255, 72, 0);
+    border-width: thick;
+}
+
+img:hover {
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1); /* or some other value */
 }
